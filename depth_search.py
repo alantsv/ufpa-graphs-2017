@@ -1,12 +1,17 @@
-class graph: 
-  vertex = [1,2,3,4,5,6,7]
-  edge = {1: [2,3],
-          2: [1,3],
-          3: [1,2,3,4,5,6,7],
-          4: [3,5],
-          5: [3,4],
-          6: [3],
-          7: [3]}
+class graph:
+  def __init__(self):
+    self.vertex = list()
+    self.edge = dict()
+
+grafo = graph()
+grafo.vertex = [1,2,3,4,5,6,7]
+grafo.edge = {1: [2,3],
+              2: [1,3],
+              3: [1,2,3,4,5,6,7],
+              4: [3,5],
+              5: [3,4],
+              6: [3],
+              7: [3]}
 
 def test_exp_edge(exp_edge, start, close):
   for j1, j2, _ in exp_edge:
