@@ -7,8 +7,8 @@
 
 # Grafo que representa a disposição dos prédios da Universidade Federal do Pará (UFPa) campus Profissional
 class graph: 
-	vertex = {"P3", "BA1", "RU", "ITEC", "ICED", "NAEA", "ICSA", "BA2", "Ver-o-Pezinho", 
-  "LEEC", "LEM", "AA", "LABTIC", "PPGEM", "UNIVERSITEC", "INCUBADORA", "A.ARQ", "AUD", "NUMA", "ICJ"}
+	vertex = {"P3", "BA1", "RU", "ITEC", "ICED", "NAEA", "ICSA", "BA2", "Ver-o-Pezinho", "LEEC", "LEM", 
+		  "AA", "LABTIC", "PPGEM", "UNIVERSITEC", "INCUBADORA", "A.ARQ", "AUD", "NUMA", "ICJ"}
 	
 	edge = {"P3" : { "LEEC" : 130 , "BA1" : 130 , "ICJ" : 270},
 	    		"BA1": { "P3" : 130, "RU": 70 }, 
